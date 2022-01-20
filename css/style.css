@@ -1,3 +1,125 @@
-/* font-family: 'Bebas Neue', cursive;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+/* --------------------------
+Reset default margin & padding
+-------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* --------------------------
+Common Styles or Utilities
+-------------------------- */
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+/* --------------------------
+header & navbar & banner
+-------------------------- */
+header {
+  background-color: #fffbf0;
+  /* background-color: turquoise; */
+  height: 100vh;
+}
+.navbar-brand img {
+  width: 100%;
+  height: 40px;
+}
+.nav-link {
+  color: #3c3c3c;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 50px;
+}
+.nav-link:hover {
+  color: #85a019;
+}
+.banner-title {
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 80px;
+  line-height: 96px;
+  color: #363958;
+}
+.banner-title span {
+  color: #fabe4c;
+}
+.banner-desc {
+  margin-bottom: 15px;
+}
+
+/* custom btn */
+.buy-now-btn {
+  display: inline-flex;
+  align-items: center;
+  background-image: linear-gradient(180deg, #a4bc46, #85a019);
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 18px 33px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  transition: 0.4s;
+}
+.buy-now-btn:hover {
+  background-image: linear-gradient(180deg, #85a019, #a4bc46);
+  color: white;
+}
+
+/* main part */
+.category-title {
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.custom-card {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+.custom-card-img-bg {
+  width: 100%;
+  background-color: #f1f1f1;
+  border-radius: 20px;
+}
+.custom-card-img {
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.custom-card-title h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #363958;
+  margin-top: 18px;
+}
+.custom-card-text p {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #3e3e3e;
+}
+.custom-card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.price h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #fabe4c;
+}
