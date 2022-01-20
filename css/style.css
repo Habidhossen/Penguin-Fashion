@@ -72,7 +72,9 @@ header {
   color: white;
 }
 
-/* main part */
+/* --------------------------
+    main section styles
+-------------------------- */
 .category-title {
   color: #363958;
   font-family: "Bebas Neue", cursive;
@@ -87,6 +89,11 @@ header {
   flex-direction: column;
   border-radius: 20px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+.custom-card:hover {
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 .custom-card-img-bg {
   width: 100%;
@@ -127,7 +134,9 @@ header {
   color: #fabe4c;
 }
 
-/* ////////// */
+/* --------------------------
+    bottom section styles
+-------------------------- */
 .bottom-left-div {
   display: flex;
   align-items: center;
@@ -138,7 +147,12 @@ header {
   height: 135px; */
   width: 100%;
   border-radius: 20px;
-  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+.bottom-left-div:hover {
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
 }
 .icon img {
   width: 78px;
