@@ -11,6 +11,9 @@ Common Styles or Utilities
 body {
   font-family: "Roboto", sans-serif;
 }
+section {
+  margin: 60px 0;
+}
 
 /* --------------------------
 header & navbar & banner
