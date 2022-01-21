@@ -21,7 +21,7 @@ header & navbar & banner
 header {
   background-color: #fffbf0;
   /* background-color: turquoise; */
-  height: 100vh;
+  min-height: 100vh;
 }
 .navbar-brand img {
   width: 100%;
